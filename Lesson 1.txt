@@ -1,0 +1,34 @@
+I have learnt the importance of having previous versions as they help us identify possible mistakes we made on our code, also it is a safe back up where we can always go back.
+echo 'alias x= path  ~/.bashrc creates a shortcut in bash and can be used as quick tool :D
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff displays the lines of code that have been changed added or deleted
+
+How can you use the commands git log and git diff to view the history of files?
+
+by moving into a git repository using the command git log which will display the viles that were changed in a bottom up perspective and then copying the ids and parsing them into the diff command which will display the lines changed removed and add from the respective file
+
+Dropbox
+Google Docs
+Manual Saving
+Wiki
+Git
+SVN
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+
+Not every type of backup might be useful for a developer, having meaningful checkpoints between versions is important. Also Git is on of the best version control mechanisms it offers freedom and the functionality required by the developers.
+
+each check point is called a commit in git and each time you save a version of a file you have to leave a commit message to justify the save made.
+
+
+
+As a developer keeping track of older versions of word might turn out quite handy since you can re-use the content that you were successful with again and again also learnt that every major company in the IT industry keeps version control it might be the key for being a top developer
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Choosing when to create a commit is a difficult task it requires the developer to identify which pieces of progress are big enough to be noted or too small and should be piled with other small changes, other then knowing when is actually hard to remember to do it, it requires discipline and it has to be a in built habbit for the developer. Manual commits provide the advantage of saving information when we want and when it really is meaningful in contrast they require human input, the automatic commits provide more reliability as versions are saved automatically and in a frequent manner, but it has the downside of not always saving in a significative moment making the versions not reliable in terms of productivity
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because git is built for a crowd with requirements to compare multiple documents simultaneously because they relate with each other and need to be simultaneously

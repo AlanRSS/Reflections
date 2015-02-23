@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates a folder called .git into the directory where the commits will be stored. We need to initialize a repository in order to transform that directory into a version control repository 
