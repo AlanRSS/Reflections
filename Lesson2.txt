@@ -1,3 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 git creates a folder called .git into the directory where the commits will be stored. We need to initialize a repository in order to transform that directory into a version control repository 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+the staging allows the person working with git to make a selection of files into which it can set into one commit. it is different to a directory or a depository because it is meant to temporarily select the files to put into a commit rather then being a permanent storage medium. It is awesome because it offers the ability to store multiple files in one commit
+How can you use the staging area to make sure you have one commit per logical change?
+the staging area can be used as a temporary repository to information that you want to commit u can use it to compare to previous versions of files it also allows for the user to commit multiple files in one single commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches are really helpful when there are more then one current work in progress versions of the same projects for example if you are working on different features at the same time and want to test them and debug without altering the other, it also help maintaining  a working version of the project without having to checkout from the current version, it gives more accessibility and control then creating multiple commits
+
+How do the diagrams help you visualize the branch structure?
+
+they distribute the different commits hierarchically dividing each of them followed up by its parent or sibling and it displayes reachability of the commits by doing a traceback displayed by arrows
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches creates a new branches that adds the recently added lines and removes old lines that the files dont have in common, it is represented the way it is because it has more then 2 parent files of origin and it can track back commits form both of the parent files
